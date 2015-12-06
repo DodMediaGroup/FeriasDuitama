@@ -1,0 +1,63 @@
+/***** FONTS *****/
+@import url(fonts.less);
+@font-title: 'Paytone One', sans-serif;
+@font-text: 'Oxygen', sans-serif;
+@font-size: 14px;
+
+
+/***** COLORS *****/
+@color-blue-light: #05A9E1;
+@color-blue: #057CA4;
+@color-blue-dark: #003968;
+
+@color-black: #333333;
+
+@color-gray-light: #C6C6C6;
+@color-gray: #999999;
+@color-gray-dark: #4C4C4C;
+
+@color-green-light: #019147;
+@color-green: #004216;
+@color-green-dark: #003307;
+
+@color-orange: #ED9022;
+@color-orange-dark: #D37B1C;
+
+@color-purple-light: #843A6A;
+@color-purple: #7851AD;
+
+@color-red: #CE3D27;
+
+@color-white: #FFFFFF;
+
+@color-yellow-light: #ECE847;
+@color-yellow: #F6B917;
+
+
+/***** DIMENTIONS *****/
+@container: 1020px;
+@padding: 12px;
+
+
+/***** PATHS *****/
+@path-images: '../images';
+
+
+/**** RESPONSIVE ****/
+@deviceSmall: 480px;
+@smartphones: 768px;
+@tablets: 992px;
+@notebook: 1200px;
+.responsive(@maxWidth; @rules) {
+    @media only screen and (max-width: @maxWidth) {
+        @rules();
+    }
+}
+
+
+/**** RETINA ****/
+.retina(@rules){
+	@media only screen and (-webkit-min-device-pixel-ratio: 2){
+		@rules();
+	}
+}

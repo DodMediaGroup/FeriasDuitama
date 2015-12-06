@@ -1,0 +1,141 @@
+.events-live{
+	@carousel-height: 200px;
+	background: url('@{path-images}/background-programing-live.png') no-repeat bottom center;
+	background-color: @color-yellow;
+	background-size: 100% auto;
+	box-shadow: 0px @padding*.5 0px @color-gray-light;
+	padding: @padding*2 0px @padding*4;
+
+	.limiter-container{
+		max-width: 1200px;
+	}
+	.title{
+		font-family: @font-title;
+		text-align: center;
+		h1{
+			background-color: @color-orange;
+			color: @color-white;
+			display: inline-block;
+			font-size: 2.2em;
+			font-weight: 400;
+			margin-top: 0px;
+			padding: @padding @padding*2;
+		}
+	}
+
+	.event{
+		align-items: center;
+		background-color: @color-purple-light;
+		color: @color-white;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		min-height: @carousel-height - @padding*6;
+		padding: @padding*.5 @padding;
+		h2{
+			font-family: @font-title;
+			font-size: 1.4em;
+			font-weight: 400;
+			margin: 0px 0px @padding*.5;
+			text-align: center;
+		}
+		.info{
+			p{
+				display: inline-block;
+				font-size: 1.4em;
+				font-weight: 300;
+				margin: 0px;
+				padding-left: @padding*1.5;
+				position: relative;
+				&:first-child{
+					padding-left: 0px;
+					position: relative;
+					&:after{
+						content: '-';
+						position: absolute;
+						right: -@padding;
+					}
+				}
+			}
+			.icon{
+				@this-width: @padding*2;
+				display: none;
+				height: @this-width;
+				left: 0px;
+				position: absolute;
+				width: @this-width;
+			}
+		}
+	}
+
+	.owl-stage-outer{
+		height: @carousel-height;
+		&>.owl-stage{
+			height: 100%;
+			.owl-item{
+				@this-scale: 0.1;
+				top: 50%;
+				transform: translateY(-50%) scale(1 - @this-scale);
+				transition: all .4s;
+				&.left{
+					&:before{
+						content: 'ANTES';
+						right: 0px;
+					}
+					.event{
+						align-items: flex-end;
+					}
+				}
+				&.right{
+					&:before{
+						content: 'DESPUÉS';
+						left: 0px;
+					}
+					.event{
+						align-items: flex-start;
+					}
+				}
+				&.left, &.right{
+					&:before{
+						bottom: 105%;
+						color: @color-white;
+						font-family: @font-text;
+						font-size: 1.6em;
+						font-weight: 300;
+						position: absolute;
+					}
+				}
+				&.active{
+					&.live{
+						position: relative;
+						transform: translateY(-50%) scale(1 + @this-scale);
+						.event{
+							background-color: @color-white;
+							color: @color-purple-light;
+							min-height: @carousel-height - @padding*4;
+							h2{
+								font-size: 2.5em;
+							}
+							.info{
+								p{
+									font-size: 1.3em;
+									padding-left: @padding*2.5;
+									&:first-child{
+										margin-right: @padding*2;
+										padding-left: @padding*2.5;
+										&:after{
+											display: none;
+										}
+									}
+								}
+								.icon{
+									display: block;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

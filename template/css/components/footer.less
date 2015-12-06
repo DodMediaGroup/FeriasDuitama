@@ -1,0 +1,47 @@
+.area-footer{
+	background: url('@{path-images}/background-footer.png') no-repeat bottom center;
+	background-size: 100% auto;
+	padding: @padding*4 0px @padding;
+	.social-buttons{
+		font-size: 0px;
+		.button{
+			@this-width: 34px;
+			background-position: center;
+			background-size: cover;
+			display: inline-block;
+			height: @this-width;
+			margin-right: @padding*.5;
+			width: @this-width;
+			&.facebook{
+				background-image: url('@{path-images}/icon-facebook.png');
+			}
+			&.twitter{
+				background-image: url('@{path-images}/icon-twitter.png');
+			}
+			&.youtube{
+				background-image: url('@{path-images}/icon-youtube.png');
+			}
+		}
+	}
+	.contact{
+		background-color: fadeout(@color-gray, 30%);
+		margin-top: @padding;
+		padding: @padding @padding*1.5;
+		width: 50%;
+		.title-section{
+			color: @color-white;
+			display: block;
+			font-weight: 400;
+			line-height: 1em;
+			margin-top: 0px;
+			text-align: left;
+			&:before{
+				display: none;
+			}
+		}
+	}
+	.info{
+		color: @color-black;
+		margin-top: @padding*6;
+	}
+}

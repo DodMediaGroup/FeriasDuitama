@@ -1,0 +1,67 @@
+@import url(normalize.less);
+@import url(config.less);
+@import url(basic.less);
+
+@import url(components/buttons.less);
+@import url(components/form.less);
+@import url(components/grid.less);
+@import url(components/parallax.less);
+@import url(components/titles.less);
+
+@import url(components/menu.less);
+@import url(components/footer.less);
+
+@import url(components/events-live.less);
+@import url(components/new.less);
+@import url(components/slide.less);
+@import url(components/social-feed.less);
+@import url(components/sponsor.less);
+
+
+
+.index__parallax{
+	background-image: url('@{path-images}/background-duitama.png');
+	overflow: hidden;
+	padding: @padding*4 0px;
+	position: relative;
+	&:after{
+		background-color: @color-white;
+		top: 100%;
+		content: '';
+		height: 100px;
+		left: 0px;
+		position: absolute;
+		transform: skewY(-3.5deg);
+		transform-origin: left top;
+		width: 100%;
+	}
+	a{
+		background: url('@{path-images}/index-button-duitama.png') no-repeat bottom center;
+		background-color: @color-red;
+		background-size: 100% auto;
+		color: @color-white;
+		display: block;
+		font-family: @font-title;
+		font-size: 2.4em;
+		font-weight: 400;
+		line-height: 1em;
+		margin: @padding*4 auto;
+		max-width: 650px;
+		padding: @padding*3 @padding;
+		text-align: center;
+		text-decoration: none;
+	}
+}
+.index__news{
+	.new{
+		.post-header{
+			background-color: fadeout(@color-white, 20%);
+		}
+		.post-title{
+			color: darken(@color-gray, 10%);
+		}
+		.post-content{
+			color: darken(@color-gray, 10%);
+		}
+	}
+}

@@ -1,0 +1,24 @@
+.limiter-container{
+	margin: auto;
+	max-width: @container;
+	padding: 0px @padding;
+	width: 100%;
+}
+
+.line-box{
+	display: block;
+	font-size: 0px;
+	width: 100%;
+	&>.line{
+		display: inline-block;
+		font-size: @font-size;
+		vertical-align: middle;
+	}
+
+	&.line-table{
+		display: table;
+		&>.line{
+			display: table-cell;
+		}
+	}
+}

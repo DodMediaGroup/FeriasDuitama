@@ -1,0 +1,50 @@
+.new{
+	.post-title{
+		color: @color-blue-light;
+		font-size: 2em;
+		font-weight: 700;
+	}
+	.post-content{
+		color: @color-gray;
+		font-weight: 300;
+	}
+}
+.news{
+	.new{
+		padding-right: @padding;
+		width: 50%;
+		&:nth-child(2n){
+			padding-left: @padding;
+			padding-right: 0px;
+		}
+		.post{
+			position: relative;
+		}
+		.post-header{
+			background-color: @color-blue-light;
+			bottom: 0px;
+			left: 0px;
+			padding: @padding;
+			position: absolute;
+		}
+		.post-title{
+			color: @color-white;
+			font-size: 1.8em;
+			margin: 0px 0px @padding;
+		}
+		.post-content{
+			color: @color-white;
+			margin: 0px;
+		}
+		.post-image{
+			margin: 0px;
+			overflow: hidden;
+			img{
+				height: auto;
+				margin-left: -10%;
+				min-height: 100%;
+				width: 120%;
+			}
+		}
+	}
+}
