@@ -27,3 +27,70 @@
 		padding: 0px @padding*2;
 	}
 }
+
+.title-page{
+	align-items: center;
+	background: url('@{path-images}/background-title-page.png') bottom center;
+	background-size: cover;
+	box-shadow: 0px @padding*.5 0px @color-gray-light;
+	color: @color-white;
+	display: flex;
+	flex-direction: column;
+	font-family: @font-title;
+	font-size: 1.5em;
+	font-weight: 400;
+	height: 230px;
+	justify-content: center;
+	margin-bottom: @padding*4;
+	padding: 105px @padding @padding;
+	position: relative;
+	&:before{
+		background-color: transparent;
+		content: '';
+		height: 100%;
+		left: 0px;
+		position: absolute;
+		top: 0px;
+		width: 100%;
+		z-index: 1;
+	}
+	&>*{
+		margin: 0px;
+		position: relative;
+		z-index: 2;
+	}
+
+	&.title-page__blue{
+		&:before{
+			background-color: fadeout(saturate(@color-blue, 15%), 20%);
+		}
+	}
+	&.title-page__green{
+		&:before{
+			background-color: fadeout(lighten(@color-green, 15%), 20%);
+		}
+	}
+	&.title-page__orange{
+		&:before{
+			background-color: fadeout(@color-orange, 30%);
+		}
+	}
+	&.title-page__purple{
+		&:before{
+			background-color: fadeout(saturate(darken(@color-purple, 5%), 20%), 20%);
+		}
+	}
+	&.title-page__red{
+		&:before{
+			background-color: fadeout(@color-red, 20%);
+		}
+	}
+}
+
+.title-post{
+	border-bottom: 1px solid @color-gray;
+	font-size: 2.5em;
+	font-weight: 700;
+	margin: @padding*6 0px @padding;
+	padding-bottom: @padding*.5;
+}

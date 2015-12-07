@@ -1,0 +1,94 @@
+section.artists{
+	margin: 0px -@padding;
+	.artists__item{
+		margin-bottom: @padding*4;
+		padding: 0px @padding;
+		width: 100/3%;
+		a{
+			text-decoration: none;
+		}
+		.artist-image{
+			margin: 0px;
+			overflow: hidden;
+			position: relative;
+			&:after{
+				background-position: bottom left;
+				background-repeat: no-repeat;
+				background-size: 90% auto;
+				content: '';
+				height: 100%;
+				left: 0px;
+				top: 0px;
+				position: absolute;
+				width: 100%;
+			}
+			img{
+				height: auto;
+				margin-left: -5%;
+				min-height: 100%;
+				width: 110%;
+			}
+		}
+		.artist-name{
+			background-color: @color-gray;
+			color: @color-white;
+			font-family: @font-title;
+			font-size: 1.4em;
+			font-weight: 400;
+			margin: 0px;
+			padding: @padding*1.5 @padding*2;
+			text-align: center;
+		}
+
+		&.artists__item__blue{
+			.artist-image{
+				&:after{
+					background-image: url('@{path-images}/artist-decoration__blue.png');
+				}
+			}
+			.artist-name{
+				background-color: @color-blue-light;
+			}
+		}
+		&.artists__item__green{
+			.artist-image{
+				&:after{
+					background-image: url('@{path-images}/artist-decoration__green.png');
+				}
+			}
+			.artist-name{
+				background-color: @color-green-light;
+			}
+		}
+		&.artists__item__orange{
+			.artist-image{
+				&:after{
+					background-image: url('@{path-images}/artist-decoration__orange.png');
+				}
+			}
+			.artist-name{
+				background-color: @color-orange;
+			}
+		}
+		&.artists__item__purple{
+			.artist-image{
+				&:after{
+					background-image: url('@{path-images}/artist-decoration__purple.png');
+				}
+			}
+			.artist-name{
+				background-color: @color-purple;
+			}
+		}
+		&.artists__item__red{
+			.artist-image{
+				&:after{
+					background-image: url('@{path-images}/artist-decoration__red.png');
+				}
+			}
+			.artist-name{
+				background-color: @color-red;
+			}
+		}
+	}
+}

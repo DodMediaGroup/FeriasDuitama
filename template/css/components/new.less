@@ -11,6 +11,7 @@
 }
 .news{
 	.new{
+		margin-bottom: @padding*3;
 		padding-right: @padding;
 		width: 50%;
 		&:nth-child(2n){
@@ -18,7 +19,31 @@
 			padding-right: 0px;
 		}
 		.post{
+			display: block;
 			position: relative;
+		}
+		a.post{
+			.post-image{
+				position: relative;
+				&:after{
+					background-color: fadeout(@color-blue-light, 50%);
+					content: '';
+					height: 100%;
+					left: 0px;
+					opacity: 0;
+					position: absolute;
+					top: 0px;
+					transition: all .2s;
+					width: 100%;
+				}
+			}
+			&:hover{
+				.post-image{
+					&:after{
+						opacity: 1;
+					}
+				}
+			}
 		}
 		.post-header{
 			background-color: @color-blue-light;

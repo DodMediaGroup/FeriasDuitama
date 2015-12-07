@@ -2,15 +2,18 @@
 @import url(config.less);
 @import url(basic.less);
 
+@import url(components/accordion.less);
 @import url(components/buttons.less);
 @import url(components/form.less);
 @import url(components/grid.less);
+@import url(components/tables.less);
 @import url(components/parallax.less);
 @import url(components/titles.less);
 
 @import url(components/menu.less);
 @import url(components/footer.less);
 
+@import url(components/artist.less);
 @import url(components/events-live.less);
 @import url(components/new.less);
 @import url(components/slide.less);
@@ -63,5 +66,358 @@
 		.post-content{
 			color: darken(@color-gray, 10%);
 		}
+	}
+}
+
+.info__invitation{
+	&>.line{
+		vertical-align: top;
+		width: 50%;
+	}
+	.title-post{
+		font-family: @font-title;
+		font-weight: 400;
+	}
+	.post-image{
+		margin: 0px;
+		padding: 0px @padding*2;
+		text-align: center;
+		img{
+			display: inline-block;
+			max-width: 100%;
+		}
+	}
+	.post-content{
+		img{
+			margin-top: @padding*3;
+			max-width: 100%;
+		}
+		p{
+			text-align: justify;
+			width: 100%;
+		}
+	}
+}
+.info__contact{
+	address{
+		font-style: normal;
+		margin-bottom: @padding*4;
+		padding-right: @padding;
+		&:nth-child(2n){
+			padding-left: @padding;
+			padding-right: 0px;
+		}
+		p{
+			margin: 0px;
+		}
+		.address-title{
+			font-size: 1.2em;
+			font-weight: 700;
+		}
+	}
+	address.line{
+		width: 50%;
+	}
+}
+
+.events-category{
+	margin-right: 8%;
+	width: 28%;
+	.events-category__title{
+		background-color: @color-gray;
+		color: @color-white;
+		font-family: @font-title;
+		font-size: 2em;
+		font-weight: 400;
+		margin-bottom: 0px;
+		padding: @padding*.75 @padding;
+		text-align: center;
+	}
+	ul{
+		list-style: none;
+		padding: 0px;
+		text-align: center;
+		li{
+			border-bottom: 1px solid @color-gray-light;
+			padding: @padding*1.5 @padding;
+			&:last-child{
+				border: 0px;
+			}
+		}
+	}
+
+	&:nth-child(1n){
+		.events-category__title{
+			background-color: @color-purple;
+		}
+	}
+	&:nth-child(2n){
+		.events-category__title{
+			background-color: @color-red;
+		}
+	}
+	&:nth-child(3n){
+		margin-right: 0px;
+		.events-category__title{
+			background-color: @color-yellow;
+		}
+	}
+}
+
+.events{
+	.column{
+		padding-right: @padding;
+		vertical-align: top;
+		width: 50%;
+		&:nth-child(2n){
+			padding-left: @padding;
+			padding-right: 0px;
+		}
+	}
+	.title-post{
+		color: @color-purple;
+	}
+	.events__list{
+		max-width: 350px;
+		width: 100%;
+		ul{
+			padding: 0px;
+		}
+		li{
+			border-bottom: 1px solid @color-gray-light;
+			display: block;
+			&:last-child{
+				border: 0px;
+			}
+			a{
+				color: @color-gray;
+				display: block;
+				font-size: 1.1em;
+				font-weight: 700;
+				padding: @padding*.5 0px;
+				text-decoration: none;
+				&.active{
+					color: @color-purple;
+				}
+			}
+		}
+	}
+	.event__load{
+		margin-top: @padding*5;
+		.title-post{
+			border: 0px;
+		}
+		.post-image{
+			margin: 0px;
+			img{
+				height: auto;
+				width: 100%;
+			}
+		}
+		.post-meta{
+			p{
+				padding-left: @padding*2.5;
+				position: relative;
+				.icon{
+					@this-width: @padding*1.5;
+					height: @this-width;
+					left: 0px;
+					position: absolute;
+					width: @this-width;
+					svg{
+						path{
+							fill: @color-gray-dark !important;
+						}
+					}
+				}
+			}
+		}
+		.post-content{
+			font-weight: 700;
+			p{
+				line-height: 1.2em;
+				text-align: justify;
+			}
+		}
+	}
+}
+
+.page__artist{
+	header{
+		font-family: @font-title;
+		font-weight: 400;
+		text-align: center;
+	}
+	.limiter-container{
+		max-width: 800px;
+		padding: 0px;
+	}
+	.artist-title{
+		background-color: @color-gray;
+		color: @color-white;
+		font-size: 3.5em;
+		margin: 0px;
+		padding: @padding*.5 @padding @padding;
+	}
+	.artist-date{
+		color: @color-gray;
+		font-size: 2.5em;
+		margin: @padding 0px @padding*.5;
+	}
+	.artist-more{
+		font-family: @font-text;
+		font-size: 1.5em;
+		font-weight: 700;
+		margin: 0px;
+	}
+	.artist-video{
+		margin-top: @padding*3;
+		iframe{
+			width: 100%;
+		}
+	}
+	.artist-description{
+		display: table;
+		margin-bottom: @padding*3;
+		width: 100%;
+		p{
+			font-weight: 700;
+			text-align: justify;
+		}
+		.artist-image{
+			float: left;
+			margin: 0px @padding @padding 0px;
+			max-width: 250px;
+			overflow: hidden;
+			position: relative;
+			&:after{
+				background-position: bottom left;
+				background-repeat: no-repeat;
+				background-size: 90% auto;
+				content: '';
+				height: 100%;
+				left: 0px;
+				top: 0px;
+				position: absolute;
+				width: 100%;
+			}
+			img{
+				height: auto;
+				max-height: 100%;
+				width: 100%;
+			}
+		}
+	}
+	&.page__artist__blue{
+		.artist-title{
+			background-color: @color-blue-light;
+		}
+		.artist-date{
+			color: @color-blue-light;
+		}
+		.artist-image{
+			&:after{
+				background-image: url('@{path-images}/artist-decoration__blue.png');
+			}
+		}
+	}
+	&.page__artist__green{
+		.artist-title{
+			background-color: @color-green-light;
+		}
+		.artist-date{
+			color: @color-green-light;
+		}
+		.artist-image{
+			&:after{
+				background-image: url('@{path-images}/artist-decoration__green.png');
+			}
+		}
+	}
+	&.page__artist__orange{
+		.artist-title{
+			background-color: @color-orange;
+		}
+		.artist-date{
+			color: @color-orange;
+		}
+		.artist-image{
+			&:after{
+				background-image: url('@{path-images}/artist-decoration__orange.png');
+			}
+		}
+	}
+	&.page__artist__purple{
+		.artist-title{
+			background-color: @color-purple;
+		}
+		.artist-date{
+			color: @color-purple;
+		}
+		.artist-image{
+			&:after{
+				background-image: url('@{path-images}/artist-decoration__purple.png');
+			}
+		}
+	}
+	&.page__artist__red{
+		.artist-title{
+			background-color: @color-red;
+		}
+		.artist-date{
+			color: @color-red;
+		}
+		.artist-image{
+			&:after{
+				background-image: url('@{path-images}/artist-decoration__red.png');
+			}
+		}
+	}
+}
+
+.new__single{
+	display: table;
+	margin-top: @padding*3;
+	width: 100%;
+	.post-image{
+		border-bottom: @padding solid @color-white;
+		border-right: @padding*2 solid @color-white;
+		float: left;
+		margin: 0px;
+		width: 50%;
+		img{
+			height: auto;
+			width: 100%;
+		}
+	}
+	.title-post{
+		color: @color-blue-light;
+		margin-top: 0px;
+	}
+	.post-content{
+		font-weight: 700;
+		text-align: justify;
+	}
+}
+
+.page__error{
+	align-items: center;
+	background: url('@{path-images}/background-error__bottom.png') no-repeat left bottom,
+				url('@{path-images}/background-error__top.png') no-repeat left top;
+	background-size: 50% auto,
+					auto auto;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	justify-content: center;
+	left: 0px;
+	max-width: 100%;
+	position: fixed;
+	top: 0px;
+	.title__error{
+		color: @color-gray;
+		font-family: @font-title;
+		font-size: 4em;
+		font-weight: 400;
 	}
 }

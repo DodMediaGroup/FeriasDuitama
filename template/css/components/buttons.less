@@ -16,6 +16,30 @@
 		background-color: @color-orange;
 		color: @color-white;
 	}
+
+	&.btn-icon{
+		position: relative;
+		&:before{
+			font-family: 'FontAwesome';
+			font-size: 1.2em;
+			line-height: 1em;
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+		}
+		&.btn-icon__left{
+			padding-left: @padding*4;
+			&:before{
+				left: @padding*1.5;
+			}
+		}
+
+		&.btn__back{
+			&:before{
+				content: '\f060';
+			}
+		}
+	}
 }
 .btn-right{
 	text-align: right;

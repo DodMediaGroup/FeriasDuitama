@@ -129,6 +129,49 @@ $.socialFeed = function(content){
         }
     });
 }
+$.createAccordion = function($box){
+    $box.accordion({
+        active: false,
+        collapsible: true,
+        heightStyle: "content"
+    });
+}
+$.loadEventJson = function($link){
+	//$.activeLoading();
+	//$('body').addClass('mod-modal');
+
+	$.ajax({
+		url: $link.attr('href'),
+		type: 'GET',
+		dataType: 'json',
+	})
+	.done(function(data) {
+		$title = $('.event__load').find('.title-post');
+		$image = $('.event__load').find('.post-image img');
+		$place = $('.event__load').find('.event-place');
+		$hour = $('.event__load').find('.event-hour');
+		$description = $('.event__load').find('.post-content');
+
+		$title.text(data.title);
+		$image.attr({
+			src: data.image,
+			alt: data.title
+		});
+		$place.text(data.place);
+		$hour.text(data.hour);
+		$description.html(data.description);
+
+		$('.events__list a.active').removeClass('active');
+		$link.addClass('active');
+	})
+	.fail(function() {
+		$.showMessage('Ocurrio un error en la conexión. Por favor intente mas tarde.');
+	})
+	.always(function() {
+		$.deactiveLoading();
+	});
+	
+}
 
 $.init = function(){
 	//$.activeLoading();
@@ -156,5 +199,13 @@ $.init = function(){
     });
     $('#social-feed').each(function(index, el) {
         $.socialFeed($(this));
+    });
+    $('.accordion').each(function(index, el) {
+        $.createAccordion($(this));
+    });
+
+    $('.load-event').on('click', function(event) {
+    	event.preventDefault();
+    	$.loadEventJson($(this));
     });
 }

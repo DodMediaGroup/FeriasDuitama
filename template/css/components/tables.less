@@ -1,0 +1,30 @@
+table{
+	border: 0px;
+	width: 100%;
+	tr{
+		border-bottom: 1px solid @color-gray-light;
+	}
+	td{
+		padding: @padding*.5 @padding;
+	}
+	p{
+		font-weight: 700;
+	}
+	.icon-line{
+		padding-left: @padding*2.5;
+		position: relative;
+		span{
+			@this-width: @padding*2;
+			display: block;
+			height: @this-width;
+			left: 0px;
+			position: absolute;
+			width: @this-width;
+			svg{
+				path{
+					fill: @color-gray-dark !important;
+				}
+			}
+		}
+	}
+}
