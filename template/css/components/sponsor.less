@@ -1,13 +1,25 @@
+.sponsors{
+	text-align: center;
+}
 .sponsor{
 	@this-height: 130px + @padding*2;
 	max-height: @this-height;
 	margin-bottom: @padding*2;
 	text-align: center;
-	width: 25%;
+	width: 20%;
 	&>img{
 		display: inline-block;
 		max-height: @this-height;
 		max-width: 100%;
 		padding: @padding;
 	}
+	.responsive(@tablets, {
+		max-height: 125px;
+	});
+	.responsive(@smartphones, {
+		width: 25%;
+	});
+	.responsive(@deviceSmall, {
+		width: 33.333%;
+	});
 }

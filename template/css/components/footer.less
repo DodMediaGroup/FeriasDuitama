@@ -1,6 +1,6 @@
 .area-footer{
 	background: url('@{path-images}/background-footer.png') no-repeat bottom center;
-	background-size: 100% auto;
+	background-size: auto 100%;
 	padding: @padding*4 0px @padding;
 	.social-buttons{
 		font-size: 0px;
@@ -39,6 +39,12 @@
 				display: none;
 			}
 		}
+		.responsive(@smartphones,{
+			width: 65%;
+		});
+		.responsive(@deviceSmall,{
+			width: 100%;
+		});
 	}
 	.info{
 		color: @color-black;

@@ -18,6 +18,13 @@
 			padding-left: @padding;
 			padding-right: 0px;
 		}
+		.responsive(@smartphones,{
+			padding: 0px;
+			width: 100%;
+			&:nth-child(2n){
+				padding: 0px;
+			}
+		});
 		.post{
 			display: block;
 			position: relative;

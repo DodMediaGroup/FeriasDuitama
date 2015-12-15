@@ -1,0 +1,1330 @@
+2015/12/08 23:22:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/test/new-1.png".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('images/test/new...')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/images/test/new-1.png
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/
+---
+2015/12/08 23:22:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/test/new-2.png".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('images/test/new...')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/images/test/new-2.png
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/
+---
+2015/12/08 23:22:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/test/slide-2.jpg".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('images/test/sli...')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/images/test/slide-2.jpg
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/
+---
+2015/12/08 23:22:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/test/slide-1.jpg".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('images/test/sli...')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/images/test/slide-1.jpg
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/
+---
+2015/12/08 23:22:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "_template-social.html".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('_template-socia...')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/_template-social.html
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/
+---
+2015/12/08 23:33:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/test/new-1.png".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('images/test/new...')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/images/test/new-1.png
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/
+---
+2015/12/08 23:33:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/test/new-2.png".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('images/test/new...')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/images/test/new-2.png
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/
+---
+2015/12/08 23:33:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/test/slide-2.jpg".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('images/test/sli...')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/images/test/slide-2.jpg
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/
+---
+2015/12/08 23:33:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/test/slide-1.jpg".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('images/test/sli...')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/images/test/slide-1.jpg
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/
+---
+2015/12/08 23:33:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "_template-social.html".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('_template-socia...')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/_template-social.html
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/
+---
+2015/12/08 23:35:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/test/new-1.png".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('images/test/new...')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/images/test/new-1.png
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/
+---
+2015/12/08 23:35:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/test/new-2.png".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('images/test/new...')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/images/test/new-2.png
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/
+---
+2015/12/08 23:35:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/test/slide-2.jpg".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('images/test/sli...')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/images/test/slide-2.jpg
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/
+---
+2015/12/08 23:35:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/test/slide-1.jpg".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('images/test/sli...')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/images/test/slide-1.jpg
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/
+---
+2015/12/08 23:35:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "_template-social.html".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('_template-socia...')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/_template-social.html
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/
+---
+2015/12/08 23:38:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/test/new-1.png".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('images/test/new...')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/images/test/new-1.png
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/
+---
+2015/12/08 23:38:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/test/new-2.png".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('images/test/new...')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/images/test/new-2.png
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/
+---
+2015/12/08 23:38:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "_template-social.html".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('_template-socia...')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/_template-social.html
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/
+---
+2015/12/08 23:42:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/test/new-1.png".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('images/test/new...')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/images/test/new-1.png
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/
+---
+2015/12/08 23:42:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/test/new-2.png".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('images/test/new...')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/images/test/new-2.png
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/
+---
+2015/12/08 23:42:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "_template-social.html".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('_template-socia...')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/_template-social.html
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/
+---
+2015/12/08 23:43:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/test/new-1.png".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('images/test/new...')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/images/test/new-1.png
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/
+---
+2015/12/08 23:43:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/test/new-2.png".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('images/test/new...')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/images/test/new-2.png
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/
+---
+2015/12/08 23:43:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "_template-social.html".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('_template-socia...')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/_template-social.html
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/
+---
+2015/12/08 23:43:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/test/new-1.png".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('images/test/new...')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/images/test/new-1.png
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/
+---
+2015/12/08 23:43:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/test/new-2.png".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('images/test/new...')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/images/test/new-2.png
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/
+---
+2015/12/08 23:43:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "_template-social.html".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('_template-socia...')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/_template-social.html
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/
+---
+2015/12/08 23:46:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/test/new-1.png".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('images/test/new...')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/images/test/new-1.png
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/
+---
+2015/12/08 23:46:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/test/new-2.png".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('images/test/new...')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/images/test/new-2.png
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/
+---
+2015/12/08 23:46:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "_template-social.html".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('_template-socia...')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/_template-social.html
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/
+---
+2015/12/09 00:07:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/test/new-1.png".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('images/test/new...')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/images/test/new-1.png
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/
+---
+2015/12/09 00:07:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/test/new-2.png".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('images/test/new...')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/images/test/new-2.png
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/
+---
+2015/12/09 00:07:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "_template-social.html".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('_template-socia...')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/_template-social.html
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/
+---
+2015/12/09 00:23:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/test/new-1.png".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('images/test/new...')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/images/test/new-1.png
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/
+---
+2015/12/09 00:23:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/test/new-2.png".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('images/test/new...')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/images/test/new-2.png
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/
+---
+2015/12/09 00:23:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "_template-social.html".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('_template-socia...')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/_template-social.html
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/
+---
+2015/12/09 00:24:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/test/new-1.png".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('images/test/new...')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/images/test/new-1.png
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/
+---
+2015/12/09 00:24:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/test/new-2.png".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('images/test/new...')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/images/test/new-2.png
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/
+---
+2015/12/09 00:24:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "_template-social.html".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('_template-socia...')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/_template-social.html
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/
+---
+2015/12/09 00:51:43 [error] [exception.CDbException] exception 'CDbException' with message 'Table "news" does not have a column named "status_new".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\db\schema\CDbCommandBuilder.php:697
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\db\ar\CActiveRecord.php(1540): CDbCommandBuilder->createColumnCriteria(Object(CMysqlTableSchema), Array, Array, Array, '`t`.')
+#1 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\protected\controllers\SiteController.php(32): CActiveRecord->findAllByAttributes(Array, Array)
+#2 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(282): CController->run('')
+#7 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('')
+#8 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#9 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/
+---
+2015/12/09 00:52:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/test/new-1.png".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('images/test/new...')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/images/test/new-1.png
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/
+---
+2015/12/09 00:52:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/test/new-2.png".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('images/test/new...')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/images/test/new-2.png
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/
+---
+2015/12/09 00:52:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "_template-social.html".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('_template-socia...')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/_template-social.html
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/
+---
+2015/12/09 00:57:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "_template-social.html".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('_template-socia...')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/_template-social.html
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/
+---
+2015/12/09 00:57:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "_template-social.html".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('_template-socia...')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/_template-social.html
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/
+---
+2015/12/09 00:57:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "_template-social.html".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('_template-socia...')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/_template-social.html
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/
+---
+2015/12/09 00:57:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "_template-social.html".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('_template-socia...')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/_template-social.html
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/
+---
+2015/12/09 00:57:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "_template-social.html".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('_template-socia...')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/_template-social.html
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/
+---
+2015/12/09 01:08:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "_template-social.html".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('_template-socia...')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/_template-social.html
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/
+---
+2015/12/09 01:09:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "_template-social.html".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('_template-socia...')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/_template-social.html
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/
+---
+2015/12/09 01:09:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "_template-social.html".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('_template-socia...')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/_template-social.html
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/
+---
+2015/12/09 01:10:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "new/view".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('new/view')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/new/2_la_mas_moderna_terminal_de_transportes_del_pais_prende_motores
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/
+---
+2015/12/09 01:12:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "new/view".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('new/view')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/new/2_la_mas_moderna_terminal_de_transportes_del_pais_prende_motores
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/
+---
+2015/12/09 01:12:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "_template-social.html".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('_template-socia...')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/_template-social.html
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/
+---
+2015/12/09 01:12:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "new/view".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('new/view')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/new/1_replica_del_pantano_de_vargas_nuevo_atractivo_del_pueblito_boyacense
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/
+---
+2015/12/09 05:01:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "_template-social.html".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('_template-socia...')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/_template-social.html
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/
+---
+2015/12/08 23:12:49 [error] [exception.CException] exception 'CException' with message 'Property "SiteController.render" is not defined.' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\protected\controllers\SiteController.php(45): CComponent->__get('render')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(282): CController->run('')
+#6 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('')
+#7 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#8 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/new/2_la_mas_moderna_terminal_de_transportes_del_pais_prende_motores
+---
+2015/12/09 05:13:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "_template-social.html".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('_template-socia...')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/_template-social.html
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/
+---
+2015/12/09 05:17:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "_template-social.html".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('_template-socia...')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/_template-social.html
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/
+---
+2015/12/09 05:27:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "_template-social.html".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('_template-socia...')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/_template-social.html
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/
+---
+2015/12/09 05:29:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "_template-social.html".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('_template-socia...')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/_template-social.html
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/
+---
+2015/12/08 23:31:39 [error] [php] Undefined variable: date (C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\protected\views\site\index.php:46)
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(869): SiteController->renderFile()
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(782): SiteController->renderPartial()
+#2 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\protected\controllers\SiteController.php(48): SiteController->render()
+#3 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(286): SiteController->runAction()
+#6 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(282): SiteController->run()
+#8 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CWebApplication->run()
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/
+in C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\protected\views\site\index.php (46)
+in C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\protected\controllers\SiteController.php (48)
+in C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php (13)
+2015/12/08 23:31:41 [error] [php] Undefined variable: date (C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\protected\views\site\index.php:46)
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(869): SiteController->renderFile()
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(782): SiteController->renderPartial()
+#2 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\protected\controllers\SiteController.php(48): SiteController->render()
+#3 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(286): SiteController->runAction()
+#6 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(282): SiteController->run()
+#8 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CWebApplication->run()
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/
+in C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\protected\views\site\index.php (46)
+in C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\protected\controllers\SiteController.php (48)
+in C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php (13)
+2015/12/09 05:31:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "_template-social.html".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('_template-socia...')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/_template-social.html
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/
+---
+2015/12/09 05:31:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "_template-social.html".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('_template-socia...')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/_template-social.html
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/
+---
+2015/12/08 23:32:29 [error] [exception.CException] exception 'CException' with message 'Property "Events.hour" is not defined.' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\db\ar\CActiveRecord.php(145): CComponent->__get('hour')
+#1 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\protected\views\site\index.php(51): CActiveRecord->__get('hour')
+#2 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CBaseController.php(126): require('C:\\wamp\\www\\dod...')
+#3 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CBaseController.php(95): CBaseController->renderInternal('C:\\wamp\\www\\dod...', Array, true)
+#4 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(869): CBaseController->renderFile('C:\\wamp\\www\\dod...', Array, true)
+#5 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(782): CController->renderPartial('index', Array, true)
+#6 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\protected\controllers\SiteController.php(48): CController->render('index', Array)
+#7 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#8 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(282): CController->run('')
+#12 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('')
+#13 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#14 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/new/2_la_mas_moderna_terminal_de_transportes_del_pais_prende_motores
+---
+2015/12/09 05:32:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "_template-social.html".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('_template-socia...')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/_template-social.html
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/
+---
+2015/12/09 05:33:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "_template-social.html".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('_template-socia...')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/_template-social.html
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/
+---
+2015/12/09 05:43:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "_template-social.html".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('_template-socia...')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/_template-social.html
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/
+---
+2015/12/09 06:09:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "invitacion".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(270): CController->missingAction('invitacion')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(282): CController->run('invitacion')
+#2 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('site/invitacion')
+#3 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/invitacion
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/
+---
+2015/12/09 06:11:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "patrocinadores".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(270): CController->missingAction('patrocinadores')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(282): CController->run('patrocinadores')
+#2 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('site/patrocinad...')
+#3 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/patrocinadores
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/invitacion
+---
+2015/12/09 06:12:39 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "patrocinadores".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(782): CController->renderPartial('patrocinadores', Array, true)
+#1 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\protected\controllers\SiteController.php(61): CController->render('patrocinadores', Array)
+#2 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\actions\CInlineAction.php(49): SiteController->actionPatrocinadores()
+#3 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(282): CController->run('patrocinadores')
+#7 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('site/patrocinad...')
+#8 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#9 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/patrocinadores
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/
+---
+2015/12/09 06:15:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "contacto".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(270): CController->missingAction('contacto')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(282): CController->run('contacto')
+#2 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('site/contacto')
+#3 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/contacto
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/patrocinadores
+---
+2015/12/09 06:18:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "programacion".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(270): CController->missingAction('programacion')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(282): CController->run('programacion')
+#2 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('site/programaci...')
+#3 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/programacion
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/contacto
+---
+2015/12/09 06:41:26 [error] [php] A non well formed numeric value encountered (C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\protected\views\site\programacion.php:15)
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CBaseController.php(95): SiteController->renderInternal()
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(869): SiteController->renderFile()
+#2 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(782): SiteController->renderPartial()
+#3 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\protected\controllers\SiteController.php(83): SiteController->render()
+#4 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\actions\CInlineAction.php(49): SiteController->actionProgramacion()
+#5 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(286): SiteController->runAction()
+#7 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(265): SiteController->runActionWithFilters()
+#8 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(282): SiteController->run()
+#9 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#11 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CWebApplication->run()
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/programacion
+in C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\protected\views\site\programacion.php (15)
+in C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\protected\controllers\SiteController.php (83)
+in C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php (13)
+2015/12/09 07:03:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "eventos".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(270): CController->missingAction('eventos')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(282): CController->run('eventos')
+#2 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('site/eventos')
+#3 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/eventos
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/programacion
+---
+2015/12/09 07:17:52 [error] [php] Trying to get property of non-object (C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\protected\views\site\eventos.php:15)
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(869): SiteController->renderFile()
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(782): SiteController->renderPartial()
+#2 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\protected\controllers\SiteController.php(101): SiteController->render()
+#3 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\actions\CInlineAction.php(49): SiteController->actionEventos()
+#4 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(286): SiteController->runAction()
+#6 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(282): SiteController->run()
+#8 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CWebApplication->run()
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/eventos
+in C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\protected\views\site\eventos.php (15)
+in C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\protected\controllers\SiteController.php (101)
+in C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php (13)
+2015/12/09 01:24:08 [error] [php] Undefined variable: sponsors (C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\protected\controllers\SiteController.php:48)
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(286): SiteController->runAction()
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(265): SiteController->runActionWithFilters()
+#2 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(282): SiteController->run()
+#3 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CWebApplication->run()
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/
+in C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\protected\controllers\SiteController.php (48)
+in C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php (13)
+2015/12/09 01:24:09 [error] [php] Undefined variable: sponsors (C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\protected\controllers\SiteController.php:48)
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(286): SiteController->runAction()
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(265): SiteController->runActionWithFilters()
+#2 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(282): SiteController->run()
+#3 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CWebApplication->run()
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/
+in C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\protected\controllers\SiteController.php (48)
+in C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php (13)
+2015/12/09 07:36:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('eventos/images/...')
+#3 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/eventos/images/test/new-2.png
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/eventos/1_culturales
+---
+2015/12/09 07:36:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('eventos/images/...')
+#3 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/eventos/images/icon-place.svg
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/eventos/1_culturales
+---
+2015/12/09 07:36:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('eventos/images/...')
+#3 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/eventos/images/icon-hour.svg
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/eventos/1_culturales
+---
+2015/12/09 07:36:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('eventos/images/...')
+#3 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/eventos/images/icon-hour.svg
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/eventos/1_culturales
+---
+2015/12/09 07:36:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('eventos/images/...')
+#3 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/eventos/images/icon-place.svg
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/eventos/1_culturales
+---
+2015/12/09 07:37:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('eventos/images/...')
+#3 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/eventos/images/test/new-2.png
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/eventos/1_culturales
+---
+2015/12/09 07:37:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('eventos/images/...')
+#3 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/eventos/images/icon-place.svg
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/eventos/1_culturales
+---
+2015/12/09 07:37:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('eventos/images/...')
+#3 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/eventos/images/icon-hour.svg
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/eventos/1_culturales
+---
+2015/12/09 07:37:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('eventos/images/...')
+#3 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/eventos/images/icon-place.svg
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/eventos/1_culturales
+---
+2015/12/09 07:37:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('eventos/images/...')
+#3 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/eventos/images/icon-hour.svg
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/eventos/1_culturales
+---
+2015/12/09 07:39:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('eventos/images/...')
+#3 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/eventos/images/test/new-2.png
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/eventos/1_culturales
+---
+2015/12/09 07:39:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('eventos/images/...')
+#3 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/eventos/images/icon-place.svg
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/eventos/1_culturales
+---
+2015/12/09 07:39:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('eventos/images/...')
+#3 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/eventos/images/icon-hour.svg
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/eventos/1_culturales
+---
+2015/12/09 07:39:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('eventos/images/...')
+#3 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/eventos/images/icon-place.svg
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/eventos/1_culturales
+---
+2015/12/09 07:39:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('eventos/images/...')
+#3 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/eventos/images/icon-hour.svg
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/eventos/1_culturales
+---
+2015/12/09 07:40:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('eventos/images/...')
+#3 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/eventos/images/test/new-2.png
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/eventos/1_culturales
+---
+2015/12/09 07:40:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('eventos/images/...')
+#3 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/eventos/images/icon-place.svg
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/eventos/1_culturales
+---
+2015/12/09 07:40:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('eventos/images/...')
+#3 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/eventos/images/icon-hour.svg
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/eventos/1_culturales
+---
+2015/12/09 07:40:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('eventos/images/...')
+#3 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/eventos/images/icon-place.svg
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/eventos/1_culturales
+---
+2015/12/09 07:40:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('eventos/images/...')
+#3 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/eventos/images/icon-hour.svg
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/eventos/1_culturales
+---
+2015/12/09 07:41:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('eventos/images/...')
+#3 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/eventos/images/test/new-2.png
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/eventos/1_culturales
+---
+2015/12/09 07:41:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('eventos/images/...')
+#3 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/eventos/images/icon-place.svg
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/eventos/1_culturales
+---
+2015/12/09 07:41:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('eventos/images/...')
+#3 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/eventos/images/icon-hour.svg
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/eventos/1_culturales
+---
+2015/12/09 07:41:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('eventos/images/...')
+#3 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/eventos/images/icon-hour.svg
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/eventos/1_culturales
+---
+2015/12/09 07:41:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('eventos/images/...')
+#3 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/eventos/images/icon-place.svg
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/eventos/1_culturales
+---
+2015/12/09 07:42:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('eventos/images/...')
+#3 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/eventos/images/icon-place.svg
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/eventos/1_culturales
+---
+2015/12/09 07:42:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('eventos/images/...')
+#3 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/eventos/images/icon-hour.svg
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/eventos/1_culturales
+---
+2015/12/09 07:42:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('eventos/images/...')
+#3 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/eventos/images/icon-place.svg
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/eventos/1_culturales
+---
+2015/12/09 07:42:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('eventos/images/...')
+#3 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/eventos/images/icon-hour.svg
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/eventos/1_culturales
+---
+2015/12/09 07:57:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/event".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('api/event')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/api/event?id=3
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/eventos/3_deportivos
+---
+2015/12/09 07:57:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/event".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('api/event')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/api/event?id=3
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/eventos/3_deportivos
+---
+2015/12/09 07:59:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/view".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('api/view')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/api/event?id=3
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/eventos/3_deportivos
+---
+2015/12/09 08:00:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/event".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('api/event')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/api/event?id=3
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/eventos/3_deportivos
+---
+2015/12/09 08:00:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/event".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('api/event')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/api/event/3
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/eventos/3_deportivos
+---
+2015/12/09 08:03:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/<action>".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('api/<action>')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/api/event/3
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/eventos/3_deportivos
+---
+2015/12/09 08:04:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\protected\controllers\ApiController.php:59
+Stack trace:
+#0 [internal function]: ApiController->actionEvent('3')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#2 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ApiController), Object(ReflectionMethod), Array)
+#3 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(291): CFilterChain->run()
+#10 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(282): CController->run('event')
+#12 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('api/event')
+#13 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#14 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/api/event/3
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/eventos/3_deportivos
+---
+2015/12/09 08:05:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\protected\controllers\ApiController.php:59
+Stack trace:
+#0 [internal function]: ApiController->actionEvent('3')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ApiController), Array)
+#2 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ApiController), Object(ReflectionMethod), Array)
+#3 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(291): CFilterChain->run()
+#10 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(282): CController->run('event')
+#12 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('api/event')
+#13 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#14 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/api/event/3
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/eventos/3_deportivos
+---
+2015/12/09 08:07:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "artistas".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(270): CController->missingAction('artistas')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(282): CController->run('artistas')
+#2 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('site/artistas')
+#3 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/artistas
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/eventos
+---
+2015/12/09 08:19:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "artista/view".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('artista/view')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/artista/1_calvin_harris
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/artistas
+---
+2015/12/09 08:21:24 [error] [php] Undefined variable: category (C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\protected\controllers\ArtistaController.php:46)
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\filters\CFilterChain.php(133): ArtistaController->runAction()
+#3 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(1145): CAccessControlFilter->filter()
+#5 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\filters\CInlineFilter.php(58): ArtistaController->filterAccessControl()
+#6 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(291): CFilterChain->run()
+#8 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(265): ArtistaController->runActionWithFilters()
+#9 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(282): ArtistaController->run()
+#10 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController()
+#11 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#12 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CWebApplication->run()
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/artista/1_calvin_harris
+in C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\protected\controllers\ArtistaController.php (46)
+in C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php (13)
+2015/12/09 08:21:25 [error] [php] Undefined variable: category (C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\protected\controllers\ArtistaController.php:46)
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\filters\CFilterChain.php(133): ArtistaController->runAction()
+#3 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(1145): CAccessControlFilter->filter()
+#5 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\filters\CInlineFilter.php(58): ArtistaController->filterAccessControl()
+#6 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(291): CFilterChain->run()
+#8 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(265): ArtistaController->runActionWithFilters()
+#9 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(282): ArtistaController->run()
+#10 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController()
+#11 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#12 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CWebApplication->run()
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/artista/1_calvin_harris
+in C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\protected\controllers\ArtistaController.php (46)
+in C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php (13)
+2015/12/09 08:21:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('artista/images/...')
+#3 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/artista/images/test/artist-1.jpg
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/artista/1_calvin_harris
+---
+2015/12/09 08:23:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(270): CController->missingAction('images')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(282): CController->run('images')
+#2 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('artista/images/...')
+#3 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/artista/images/test/artist-1.jpg
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/artista/1_calvin_harris
+---
+2015/12/09 08:44:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "noticias".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CController.php(270): CController->missingAction('noticias')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(282): CController->run('noticias')
+#2 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('site/noticias')
+#3 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/noticias
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/artista/1_calvin_harris
+---
+2015/12/09 08:46:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/test/new-1.png".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('images/test/new...')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/images/test/new-1.png
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/noticias
+---
+2015/12/09 08:51:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "new/view".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('new/view')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/new/2_la_mas_moderna_terminal_de_transportes_del_pais_prende_motores
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/noticias
+---
+2015/12/09 08:52:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "new/view".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('new/view')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/new/2_la_mas_moderna_terminal_de_transportes_del_pais_prende_motores
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/noticias
+---
+2015/12/09 08:52:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "new/view".' in C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\web\CWebApplication.php(141): CWebApplication->runController('new/view')
+#1 C:\wamp\www\dodmediagroup\frameworks\yii\1.1.16\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\wamp\www\dodmediagroup\projects\ferias_duitama\project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dodmediagroup/projects/ferias_duitama/project/new/2_la_mas_moderna_terminal_de_transportes_del_pais_prende_motores
+HTTP_REFERER=http://localhost/dodmediagroup/projects/ferias_duitama/project/noticias
+---

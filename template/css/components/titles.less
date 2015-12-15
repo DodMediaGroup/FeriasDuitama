@@ -26,6 +26,12 @@
 		margin: 0px;
 		padding: 0px @padding*2;
 	}
+	.responsive(@smartphones, {
+		font-size: 2.5em;
+	});
+	.responsive(@deviceSmall, {
+		font-size: 2.3em;
+	});
 }
 
 .title-page{
@@ -44,6 +50,7 @@
 	margin-bottom: @padding*4;
 	padding: 105px @padding @padding;
 	position: relative;
+	text-align: center;
 	&:before{
 		background-color: transparent;
 		content: '';
@@ -85,6 +92,15 @@
 			background-color: fadeout(@color-red, 20%);
 		}
 	}
+
+	.responsive(@smartphones, {
+		font-size: 1.3em;
+		height: 180px;
+		padding-top: 80px;
+	});
+	.responsive(@deviceSmall, {
+		font-size: 1em;
+	});
 }
 
 .title-post{

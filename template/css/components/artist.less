@@ -1,9 +1,21 @@
 section.artists{
-	margin: 0px -@padding;
 	.artists__item{
 		margin-bottom: @padding*4;
 		padding: 0px @padding;
 		width: 100/3%;
+		&:hover{
+			.artist-image{
+				&:before{
+					opacity: 1;
+				}
+			}
+		}
+		.responsive(@smartphones, {
+			width: 50%;
+		});
+		.responsive(@deviceSmall, {
+			width: 100%;
+		});
 		a{
 			text-decoration: none;
 		}
@@ -11,16 +23,24 @@ section.artists{
 			margin: 0px;
 			overflow: hidden;
 			position: relative;
+			&:before,
 			&:after{
-				background-position: bottom left;
-				background-repeat: no-repeat;
-				background-size: 90% auto;
+				background-color: transparent;
 				content: '';
 				height: 100%;
 				left: 0px;
 				top: 0px;
 				position: absolute;
 				width: 100%;
+			}
+			&:before{
+				opacity: 0;
+				transition: all .4s;
+			}
+			&:after{
+				background-position: bottom left;
+				background-repeat: no-repeat;
+				background-size: 90% auto;
 			}
 			img{
 				height: auto;
@@ -42,6 +62,9 @@ section.artists{
 
 		&.artists__item__blue{
 			.artist-image{
+				&:before{
+					background-color: fadeout(@color-blue-light, 50%);
+				}
 				&:after{
 					background-image: url('@{path-images}/artist-decoration__blue.png');
 				}
@@ -52,6 +75,9 @@ section.artists{
 		}
 		&.artists__item__green{
 			.artist-image{
+				&:before{
+					background-color: fadeout(@color-green-light, 50%);
+				}
 				&:after{
 					background-image: url('@{path-images}/artist-decoration__green.png');
 				}
@@ -62,6 +88,9 @@ section.artists{
 		}
 		&.artists__item__orange{
 			.artist-image{
+				&:before{
+					background-color: fadeout(@color-orange, 50%);
+				}
 				&:after{
 					background-image: url('@{path-images}/artist-decoration__orange.png');
 				}
@@ -72,6 +101,9 @@ section.artists{
 		}
 		&.artists__item__purple{
 			.artist-image{
+				&:before{
+					background-color: fadeout(@color-purple, 50%);
+				}
 				&:after{
 					background-image: url('@{path-images}/artist-decoration__purple.png');
 				}
@@ -82,6 +114,9 @@ section.artists{
 		}
 		&.artists__item__red{
 			.artist-image{
+				&:before{
+					background-color: fadeout(@color-red, 50%);
+				}
 				&:after{
 					background-image: url('@{path-images}/artist-decoration__red.png');
 				}
