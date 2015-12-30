@@ -1,5 +1,5 @@
 jQuery(document).ready(function($) {
-	$.init();
+    $.init();
 });
 
 $.imgToSvg = function(image){
@@ -66,66 +66,66 @@ $.runSlider = function($slider){
     $slider.fractionSlider();
 }
 $.runCarousel = function($carousel){
-	$addCarouselClass = function(event){
-		$carousel.find('.live, .left, .right').removeClass('left live right');
-    	if($(window).width() >= 751){
-    		$carousel.find('.active').each(function(index, el) {
-	    		if(index == 0)
-		    		$(this).addClass('left');
-		    	else if(index == 1)
-		    		$(this).addClass('live');
-		    	else if(index == 2)
-		    		$(this).addClass('right');
-		    });
-    	}
-    	else{
-    		$carousel.find('.active').each(function(index, el) {
-	    		$(this).addClass('live');
-		    });
-    	}
-	}
-	$removeCarouselClass = function(event){
-		$carousel.find('.live, .left, .right').removeClass('left live right');
-	}
-	$carousel.owlCarousel({
-		items: 3,
-		margin: 12,
-		responsiveClass:true,
-		responsive:{
-			0: {
-		        items: 1
-		    },
-		    768: {
-		        items: 3
-		    }
-		},
+    $addCarouselClass = function(event){
+        $carousel.find('.live, .left, .right').removeClass('left live right');
+        if($(window).width() >= 751){
+            $carousel.find('.active').each(function(index, el) {
+                if(index == 0)
+                    $(this).addClass('left');
+                else if(index == 1)
+                    $(this).addClass('live');
+                else if(index == 2)
+                    $(this).addClass('right');
+            });
+        }
+        else{
+            $carousel.find('.active').each(function(index, el) {
+                $(this).addClass('live');
+            });
+        }
+    }
+    $removeCarouselClass = function(event){
+        $carousel.find('.live, .left, .right').removeClass('left live right');
+    }
+    $carousel.owlCarousel({
+        items: 3,
+        margin: 12,
+        responsiveClass:true,
+        responsive:{
+            0: {
+                items: 1
+            },
+            768: {
+                items: 3
+            }
+        },
 
-		onDrag: $removeCarouselClass,
-		onInitialized: $addCarouselClass,
-		onTranslated: $addCarouselClass
-	});
-	$carousel.on('click', function(event) {
-		event.preventDefault();
-		$addCarouselClass();
-	});
+        onDrag: $removeCarouselClass,
+        onInitialized: $addCarouselClass,
+        onTranslated: $addCarouselClass
+    });
+    $carousel.on('click', function(event) {
+        event.preventDefault();
+        $addCarouselClass();
+    });
 }
 $.socialFeed = function(content){
-	var gridOptions = {
+    var gridOptions = {
         itemSelector: '.social-feed-element',
         percentPosition: true,
         columnWidth: '.grid-sizer'
     };
     content.socialfeed({
         facebook:{
-            accounts: ['@alfonsosilvaalcalde','!alfonsosilvaalcalde'],
+            accounts: ['@feriadeduitama','!feriadeduitama'],
             limit: 5,
-            access_token: '150849908413827|a20e87978f1ac491a0c4a721c961b68c'
+            access_token: '203728599967701|64758de9e7f82ce8e2d13211ae9cdbc0'
         },
         twitter:{
-            accounts: ['@SilvaPesca2015'],
+            accounts: ['@FeriaDeDuitama'],
             limit: 5,
-            consumer_key: 'dsXxL9n5ndT6WJBgZem0iFErw',
-            consumer_secret: 'wwre7ne4AOSneaRGQlu1kSjs7UEjzxQsykqEaXB0isvLYX1Q45',
+            consumer_key: 'AKKltjX0hfabCm5bwDx2zrzZB',
+            consumer_secret: '8OncjL3pI8acpmjF3bICLK9kehmBqeQQ7PBVOXzROEZ94TegwB',
         },
         // GENERAL SETTINGS
         length:200,
@@ -152,46 +152,46 @@ $.createAccordion = function($box){
     });
 }
 $.loadEventJson = function($link){
-	//$.activeLoading();
-	//$('body').addClass('mod-modal');
+    //$.activeLoading();
+    //$('body').addClass('mod-modal');
 
-	$.ajax({
-		url: $link.attr('href'),
-		type: 'GET',
-		dataType: 'json',
-	})
-	.done(function(data) {
-		$title = $('.event__load').find('.title-post');
-		$image = $('.event__load').find('.post-image img');
-		$place = $('.event__load').find('.event-place');
-		$hour = $('.event__load').find('.event-hour');
-		$description = $('.event__load').find('.post-content');
+    $.ajax({
+        url: $link.attr('href'),
+        type: 'GET',
+        dataType: 'json',
+    })
+    .done(function(data) {
+        $title = $('.event__load').find('.title-post');
+        $image = $('.event__load').find('.post-image img');
+        $place = $('.event__load').find('.event-place');
+        $hour = $('.event__load').find('.event-hour');
+        $description = $('.event__load').find('.post-content');
 
-		$title.text(data.title);
-		$image.attr({
-			src: data.image,
-			alt: data.title
-		});
-		$place.text(data.place);
-		$hour.text(data.hour);
-		$description.html(data.description);
+        $title.text(data.title);
+        $image.attr({
+            src: data.image,
+            alt: data.title
+        });
+        $place.text(data.place);
+        $hour.text(data.hour);
+        $description.html(data.description);
 
-		$('.events__list a.active').removeClass('active');
-		$link.addClass('active');
+        $('.events__list a.active').removeClass('active');
+        $link.addClass('active');
 
-		$(document).scrollTop($('.event__load').position().top);
-	})
-	.fail(function() {
-		$.showMessage('Ocurrio un error en la conexión. Por favor intente mas tarde.');
-	})
-	.always(function() {
-		$.deactiveLoading();
-	});
-	
+        $(document).scrollTop($('.event__load').position().top);
+    })
+    .fail(function() {
+        $.showMessage('Ocurrio un error en la conexión. Por favor intente mas tarde.');
+    })
+    .always(function() {
+        $.deactiveLoading();
+    });
+    
 }
 
 $.init = function(){
-	//$.activeLoading();
+    //$.activeLoading();
     //$('body').addClass('mod-modal');
 
     $(document).on('keypress', '.js-input-number', function(event){
@@ -212,7 +212,7 @@ $.init = function(){
         $.runSlider($(this));
     });
     $('.oxl-carousel').each(function(index, el) {
-    	$.runCarousel($(this));
+        $.runCarousel($(this));
     });
     $('#social-feed').each(function(index, el) {
         $.socialFeed($(this));
@@ -222,15 +222,15 @@ $.init = function(){
     });
 
     $('.menu-button').on('click', function(event) {
-    	event.preventDefault();
-    	$menu = $(this).parent('.menu');
-    	if($menu.hasClass('active'))
-    		$menu.removeClass('active');
-    	else
-    		$menu.addClass('active');
+        event.preventDefault();
+        $menu = $(this).parent('.menu');
+        if($menu.hasClass('active'))
+            $menu.removeClass('active');
+        else
+            $menu.addClass('active');
     });
     $('.load-event').on('click', function(event) {
-    	event.preventDefault();
-    	$.loadEventJson($(this));
+        event.preventDefault();
+        $.loadEventJson($(this));
     });
 }

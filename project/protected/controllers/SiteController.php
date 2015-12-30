@@ -48,10 +48,14 @@ class SiteController extends Controller
 	}
 
 	public function actionInvitacion(){
+		$this->pageTitle = 'Invitación - '.$this->pageTitle;
+
 		$this->render('invitacion');
 	}
 
 	public function actionPatrocinadores(){
+		$this->pageTitle = 'Patrocinadores - '.$this->pageTitle;
+
 		$sponsors = Sponsors::model()->findAllByAttributes(array('status_sponsor'=>1), array('order'=>'t.importance_sponsor ASC'));
 
 		$this->render('patrocinadores', array(
@@ -60,10 +64,16 @@ class SiteController extends Controller
 	}
 
 	public function actionContacto(){
+		$this->pageTitle = 'Contacto - '.$this->pageTitle;
+
 		$this->render('contacto');
 	}
 
 	public function actionProgramacion(){
+		$this->pageTitle = 'Programación - '.$this->pageTitle;
+		$this->pageDescription = 'Consulta la programacion oficial de las ferias. Los esperamos sin falta en nuestros eventos religiosos, teatro, danza, noches de música, cabalgata, carrozas y comparsas, deportes extremos y actividades para toda la familia.';
+		$this->tagImage = '/images/facebook-programacion.png';
+		
 		$events = array();
 		$dates = Dates::model()->findAllByAttributes(array('status_date'=>1), array('order'=>'t.date_date ASC'));
 		foreach ($dates as $key => $date) {
@@ -82,6 +92,10 @@ class SiteController extends Controller
 	}
 
 	public function actionEventos(){
+		$this->pageTitle = 'Eventos - '.$this->pageTitle;
+		$this->pageDescription = 'Los esperamos sin falta en nuestros eventos religiosos, teatro, danza, noches de música, cabalgata, carrozas y comparsas, deportes extremos y actividades para toda la familia.';
+		$this->tagImage = '/images/facebook-eventos.png';
+
 		$categories = array();
 		$categoriesDb = EventCategories::model()->findAllByAttributes(array('status_category'=>1));
 		foreach ($categoriesDb as $key => $category) {
@@ -100,6 +114,10 @@ class SiteController extends Controller
 	}
 
 	public function actionArtistas(){
+		$this->pageTitle = 'Artistas - '.$this->pageTitle;
+		$this->pageDescription = 'Ven y disfruta en familia de lo mejor de la salsa, el merengue, el vallenato y mucho más en las ferias de Duitama 2016.';
+		$this->tagImage = '/images/facebook-artistas.png';
+
 		$artists = Artists::model()->findAllByAttributes(array('status_artist'=>1));
 
 		$this->render('artistas', array(
@@ -108,6 +126,8 @@ class SiteController extends Controller
 	}
 
 	public function actionNoticias(){
+		$this->pageTitle = 'Noticias - '.$this->pageTitle;
+		
 		$news = News::model()->findAllByAttributes(array('status_new'=>1), array('order'=>'t.id_new DESC'));
 
 		$this->render('noticias', array(
@@ -120,6 +140,9 @@ class SiteController extends Controller
 	 */
 	public function actionError()
 	{
+		$this->pageTitle = 'Error - '.$this->pageTitle;
+		$this->pageDescription = 'Paginá o solicitud no encontrada.';
+
 		$this->layout='//layouts/error';
 		if($error=Yii::app()->errorHandler->error)
 		{
@@ -133,7 +156,7 @@ class SiteController extends Controller
 	/**
 	 * Displays the contact page
 	 */
-	public function actionContact()
+	/*public function actionContact()
 	{
 		$model=new ContactForm;
 		if(isset($_POST['ContactForm']))
@@ -154,7 +177,7 @@ class SiteController extends Controller
 			}
 		}
 		$this->render('contact',array('model'=>$model));
-	}
+	}*/
 
 	/**
 	 * Displays the login page

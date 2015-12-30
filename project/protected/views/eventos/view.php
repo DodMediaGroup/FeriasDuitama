@@ -13,39 +13,44 @@
 						</header>
 						<div class="events__list">
 							<ul>
-								<?php foreach ($events as $key => $event) { ?>
-									<li> <a href="<?php echo $this->createUrl('api/event/'.$event->id_event) ?>" class="load-event <?php echo ($key == 0)?'active':''; ?>"><?php echo MyMethods::myStrtoupper($event->title_event) ?></a> </li>
+								<?php foreach ($events as $key => $itemEvent) { ?>
+									<li> <a href="<?php echo $this->createUrl('api/event/'.$itemEvent->id_event) ?>" class="load-event <?php echo ($event->id_event == $itemEvent->id_event)?'active':''; ?>"><?php echo MyMethods::myStrtoupper($itemEvent->title_event) ?></a> </li>
 								<?php } ?>
 							</ul>
 						</div>
 					</section>
-					<article class="line column event__load">
-						<?php
-							$event = $events[0];
-							
-							$hour = new DateTime($event->hour_event);
-							$event->hour_event = $hour->format('g:i A');
-						?>
-						<header class="post-title">
-							<h3 class="title-post"><?php echo MyMethods::myStrtoupper($event->title_event) ?></h3>
-						</header>
-						<figure class="post-image">
-							<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/events/<?php echo $event->image_event; ?>" alt="<?php echo $event->title_event; ?>">
-						</figure>
-						<div class="post-meta">
-							<p>
-								<span class="icon"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/icon-place.svg" alt="Lugar" class="to-svg"></span>
-								<span class="event-place"><?php echo MyMethods::myStrtoupper($event->placesIdPlace->name_place); ?></span>
-							</p>
-							<p>
-								<span class="icon"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/icon-hour.svg" alt="Hora" class="to-svg"></span>
-								<span class="event-hour"><?php echo $event->hour_event; ?></span>
-							</p>
-						</div>
-						<section class="post-content">
-							<?php echo $event->description_event; ?>
-						</section>
-					</article>
+					<?php if($event != null){ ?>
+						<article class="line column event__load">
+							<?php
+								$days = array('Monday'=>'Lunes', 'Tuesday'=>'Martes', 'Wednesday'=>'Miercoles', 'Thursday'=>'Jueves', 'Friday'=>'Viernes', 'Saturday'=>'Sabado', 'Sunday'=>'Domingo');
+
+								$hour = new DateTime($event->hour_event);
+								$date = new DateTime($event->datesIdDate->date_date);
+
+								$event->hour_event = $hour->format('g:i A');
+								$event->datesIdDate->date_date = $days[$date->format('l')].' '.intval($date->format('d'));
+							?>
+							<header class="post-title">
+								<h3 class="title-post"><?php echo MyMethods::myStrtoupper($event->title_event) ?></h3>
+							</header>
+							<figure class="post-image">
+								<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/events/<?php echo $event->image_event; ?>" alt="<?php echo $event->title_event; ?>">
+							</figure>
+							<div class="post-meta">
+								<p>
+									<span class="icon"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/icon-place.svg" alt="Lugar" class="to-svg"></span>
+									<span class="event-place"><?php echo MyMethods::myStrtoupper($event->placesIdPlace->name_place); ?></span>
+								</p>
+								<p>
+									<span class="icon"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/icon-hour.svg" alt="Hora" class="to-svg"></span>
+									<span class="event-hour"><?php echo $event->datesIdDate->date_date.' - '.$event->hour_event; ?></span>
+								</p>
+							</div>
+							<section class="post-content">
+								<?php echo $event->description_event; ?>
+							</section>
+						</article>
+					<?php } ?>
 				</div>
 			</section>
 		</div>

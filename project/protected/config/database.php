@@ -6,16 +6,16 @@ return array(
 	// uncomment the following lines to use a MySQL database
 	
 	//DATABASE DEVELOPMENT
-	/*'connectionString' => 'mysql:host=localhost;dbname=dod_ferias_duitama',
+	'connectionString' => 'mysql:host=localhost;dbname=dod_ferias_duitama',
 	'emulatePrepare' => true,
 	'username' => 'root',
 	'password' => '',
-	'charset' => 'utf8',*/
+	'charset' => 'utf8',
 
 	//DATABASE TEST
-	'connectionString' => 'mysql:host=localhost;dbname=dodmedia_bd_ferias_duitama',
+	/*'connectionString' => 'mysql:host=localhost;dbname=dodmedia_bd_ferias_duitama',
 	'emulatePrepare' => true,
 	'username' => 'dodmedia_sergio',
 	'password' => ')$f)@J&Iv[I&',
-	'charset' => 'utf8',
+	'charset' => 'utf8',*/
 );

@@ -18,7 +18,7 @@
 						<iframe class="js-resizing" data-resizing="9/16" src="https://www.youtube.com/embed/<?php echo $artist->video_artist ?>" frameborder="0" allowfullscreen></iframe>
 					</div>
 					<section class="artist-description">
-						<figure class="artist-image js-resizing" data-resizing="1"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/artists/<?php echo $artist->image_artist ?>" alt="<?php echo $artist->name_artist ?>"></figure>
+						<figure class="artist-image"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/artists/350x350/<?php echo $artist->image_artist ?>" alt="<?php echo $artist->name_artist ?>"></figure>
 						<?php echo $artist->description_artist ?>
 					</section>
 				</div>

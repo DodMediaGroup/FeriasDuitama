@@ -45,14 +45,19 @@ class ApiController extends Controller
         if(Yii::app()->request->isAjaxRequest){
             $event = Events::model()->findByAttributes(array('id_event'=>$id, 'status_event'=>1));
             if($event != null){
+                $days = array('Monday'=>'Lunes', 'Tuesday'=>'Martes', 'Wednesday'=>'Miercoles', 'Thursday'=>'Jueves', 'Friday'=>'Viernes', 'Saturday'=>'Sabado', 'Sunday'=>'Domingo');
+
                 $hour = new DateTime($event->hour_event);
+                $date = new DateTime($event->datesIdDate->date_date);
+
                 $event->hour_event = $hour->format('g:i A');
+                $event->datesIdDate->date_date = $days[$date->format('l')].' '.intval($date->format('d'));
 
                 echo CJSON::encode(array(
                     "title"=>MyMethods::myStrtoupper($event->title_event),
                     "image"=>Yii::app()->request->baseUrl.'/images/events/'.$event->image_event,
                     "place"=>MyMethods::myStrtoupper($event->placesIdPlace->name_place),
-                    "hour"=>$event->hour_event,
+                    "hour"=>$event->datesIdDate->date_date.' - '.$event->hour_event,
                     "description"=>$event->description_event
                 ));
             }

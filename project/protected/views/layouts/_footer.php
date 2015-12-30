@@ -1,9 +1,9 @@
 	<footer class="area-footer">
 		<div class="limiter-container">
 			<div class="social-buttons">
-				<a href="#" class="button youtube"></a>
-				<a href="#" class="button twitter"></a>
-				<a href="#" class="button facebook"></a>
+				<a href="https://www.youtube.com/channel/UC6JT1par7khPMWiX2NhzcUg" target="_blank" class="button youtube"></a>
+				<a href="https://twitter.com/FeriaDeDuitama" class="button twitter" target="_blank"></a>
+				<a href="https://www.facebook.com/feriaduitama" class="button facebook" target="_blank"></a>
 			</div>
 			<section class="contact">
 				<h1 class="title-section">CONTACTO</h1>
@@ -43,5 +43,15 @@
 	<script src="<?php echo Yii::app()->request->baseUrl; ?>/vendor/jquery-ui/jquery-ui.min.js"></script>
 
 	<script src="<?php echo Yii::app()->request->baseUrl; ?>/js/main.js"></script>
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-71830809-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 </body>
 </html>

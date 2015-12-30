@@ -52,6 +52,10 @@ class ArtistaController extends Controller
         $date = new DateTime($artist->datesIdDate->date_date);
         $artist->datesIdDate->date_date = $days[$date->format('l')].' '.intval($date->format('d')).' de '.((isset($months[$date->format('F')]))?$months[$date->format('F')]:$date->format('F'));
         
+        $this->pageTitle = 'Artistas - '.$this->pageTitle;
+        $this->pageDescription = 'Ven y disfruta en familia de lo mejor de la salsa, el merengue, el vallenato y mucho más en las ferias de Duitama 2016.';
+        $this->tagImage = '/images/facebook-artistas.jpg';
+
         $this->render('view',array(
             'artist'=>$artist,
         ));

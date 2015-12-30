@@ -117,15 +117,15 @@ $.socialFeed = function(content){
     };
     content.socialfeed({
         facebook:{
-            accounts: ['@alfonsosilvaalcalde','!alfonsosilvaalcalde'],
+            accounts: ['@feriaduitama','#feriaduitama'],
             limit: 5,
             access_token: '150849908413827|a20e87978f1ac491a0c4a721c961b68c'
         },
         twitter:{
-            accounts: ['@SilvaPesca2015'],
+            accounts: ['@FeriaDeDuitama'],
             limit: 5,
-            consumer_key: 'dsXxL9n5ndT6WJBgZem0iFErw',
-            consumer_secret: 'wwre7ne4AOSneaRGQlu1kSjs7UEjzxQsykqEaXB0isvLYX1Q45',
+            consumer_key: 'AKKltjX0hfabCm5bwDx2zrzZB',
+            consumer_secret: '8OncjL3pI8acpmjF3bICLK9kehmBqeQQ7PBVOXzROEZ94TegwB',
         },
         // GENERAL SETTINGS
         length:200,
@@ -138,9 +138,10 @@ $.socialFeed = function(content){
         //update_period: 5000,
         // When all the posts are collected and displayed - this function is evoked
         callback: function(){
-            content.imagesLoaded().progress( function() {
+            content.find('.social-post').imagesLoaded().progress( function() {
                 content.masonry(gridOptions);
             });
+            content.masonry('reloadItems');
         }
     });
 }

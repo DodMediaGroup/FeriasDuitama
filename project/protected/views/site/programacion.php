@@ -31,7 +31,16 @@
 												<?php echo $eventItem->hour_event; ?>
 											</p>
 										</td>
-										<td><p><?php echo MyMethods::myStrtoupper($eventItem->title_event); ?></p></td>
+										<td>
+											<p>
+												<?php if($eventItem->great_event == 1){ ?>
+													<a href="<?php echo $this->createUrl('eventos/'.$eventItem->event_categories_id_category.'_'.MyMethods::normalizarUrl($eventItem->eventCategoriesIdCategory->name_category).'?event='.$eventItem->id_event) ?>"><?php echo MyMethods::myStrtoupper($eventItem->title_event); ?></a>
+												<?php }
+												else
+													echo MyMethods::myStrtoupper($eventItem->title_event);
+												?>
+											</p>
+										</td>
 										<td>
 											<p class="icon-line">
 												<span><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/icon-place.svg" alt="Lugar" class="to-svg"></span>

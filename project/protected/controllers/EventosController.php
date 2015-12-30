@@ -44,12 +44,35 @@ class EventosController extends Controller
     {
         $category = explode('_', $id);
         $category = $this->loadModel($category[0]);
+        $events = array();
 
-        $events = Events::model()->findAllByAttributes(array('status_event'=>1, 'great_event'=>1, 'event_categories_id_category'=>$category->id_category), array('order'=>'t.id_event ASC'));
+        $dates = Dates::model()->findAllByAttributes(array('status_date'=>1), array('order'=>'t.date_date ASC'));
+        foreach ($dates as $key => $date) {
+            $eventsDate = Events::model()->findAllByAttributes(array('dates_id_date'=>$date->id_date, 'status_event'=>1, 'great_event'=>1, 'event_categories_id_category'=>$category->id_category), array('order'=>'t.hour_event ASC'));
+            $events = array_merge($events, $eventsDate);
+        }
+
+        if(isset($_GET['event'])){
+            $event = Events::model()->findByAttributes(array('status_event'=>1, 'great_event'=>1, 'event_categories_id_category'=>$category->id_category, 'id_event'=>$_GET['event']));
+            if($event == null)
+                throw new CHttpException(404,'The requested page does not exist.');
+        }
+        else{
+            if(isset($events[0])){
+                $event = $events[0];
+
+                $this->pageTitle = 'Eventos '.$category->name_category.' - '.$this->pageTitle;
+                $this->pageDescription = 'Los esperamos sin falta en nuestros eventos religiosos, teatro, danza, noches de música, cabalgata, carrozas y comparsas, deportes extremos y actividades para toda la familia.';
+                $this->tagImage = '/images/events/'.$event->image_event;
+            }
+            else
+                $event = null;
+        }   
 
         $this->render('view',array(
             'category'=>$category,
-            'events'=>$events
+            'events'=>$events,
+            'event'=>$event
         ));
     }
 

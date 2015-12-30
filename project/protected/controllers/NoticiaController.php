@@ -43,8 +43,14 @@ class NoticiaController extends Controller
     public function actionView($id)
     {
         $new = explode('_', $id);
+        $new = $this->loadModel($new[0]);
+
+        $this->pageTitle = $new->title_new.' - '.$this->pageTitle;
+        $this->pageDescription = substr(strip_tags($new->content_new), 0, 130);
+        $this->tagImage = '/images/news/'.$new->image_new;
+
         $this->render('view',array(
-            'new'=>$this->loadModel($new[0]),
+            'new'=>$new,
         ));
     }
 
